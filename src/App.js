@@ -1,16 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
 import Header from './Header';
 import SampleState from './SampleState';
 import SectionA from './Section/SectionA';
+import SectionC from './Section/SectionC';
+import SectionB from './Section/SectionB';
 
 function App() {
   return (
     <div className="App">
      <Header/>
      <SampleState/>
-     <br/>
+     <hr/>
      <SectionA/>
+     <SectionB/>
+     <SectionC/>
     </div>
   );
 }
